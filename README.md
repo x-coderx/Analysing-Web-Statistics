@@ -16,7 +16,7 @@ Create a project directory and open a terminal instance in project directory. Ru
 - Create your virtual environment : python3.9 -m venv venv
 - Activating your virtual environment : source venv/bin/activate
 - Install Requirements : python3.9 -m pip install -r requirements.txt
-- Finally, run "analyzw_webstats.py"
+- Finally, run "analyze_webstats.py"
 
 ### For Windows user:
 Create a project directory and open a cmd instance in project directory. Run following commands to setup environment and pre-requisites.
@@ -25,7 +25,7 @@ Create a project directory and open a cmd instance in project directory. Run fol
 - Create your virtual environment : python -m venv venv
 - Activating your virtual environment : venv\scripts\activate
 - Install Requirements : python -m pip install -r requirements.txt
-- Finally, run "analyzw_webstats.py"
+- Finally, run "analyze_webstats.py"
 
 ## Idea :
 Idea is to use curve-fitting and Logistic Regression on our data in order to predict the hour at which we will cross 100,000 hits/hour on our website.
